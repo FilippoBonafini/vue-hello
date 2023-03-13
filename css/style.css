@@ -4,3 +4,64 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
+body{
+    height: 100vh;
+    background-color: rgb(205, 204, 204);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#app{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+#app h1{
+    width: 100%;
+    text-align: center;
+}
+
+#app .containerInput,
+#app .containerResult{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 350px;
+    padding: 30px;
+    background-color: rgb(146, 227, 117);
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+}
+
+
+#app .containerResult img{
+    width: 300px;
+    border-radius: 30px;
+}
+
+#app .containerInput>input,
+#app .containerInput select{
+    width: 100%;
+    height: 30px;
+    border: none;
+    margin-bottom: 25px;
+    text-align: center;
+    border-radius: 30px;
+    font-size: 17px;
+}
+
+#app .sesso{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 35px;
+}
+
+#app .containerInput label{
+    margin-bottom: 10px;
+}

@@ -29,22 +29,29 @@
             <label for="eta">Età:</label>
             <input type="number" id="eta" v-model="age" min="0" max="99">
 
-            <div>
-                <input type="radio" id="maschioRadio" name="sesso" value="maschio" v-model="sex" />
-                <label for="maschioRadio">Maschio</label>
+            <label for="avatar">Scegli avatar:</label>
+            <select name="avatar" id="avatar" v-model="avatar">
+                <option value="default">Default</option>
+                <option value="avatar1">Avatar1</option>
+                <option value="avatar2">Avatar2</option>
+                <option value="avatar3">Avatar3</option>
+            </select>
 
-                <input type="radio" id="femminaRadio" name="sesso" value="femmina" v-model="sex" />
-                <label for="femminaRadio">Femmina</label>
+            <div class="sesso">
+                <div>
+                    <input type="radio" id="maschioRadio" name="sesso" value="maschio" v-model="sex" />
+                    <label for="maschioRadio">Maschio</label>
+                </div>
+                <div>
+                    <input type="radio" id="femminaRadio" name="sesso" value="femmina" v-model="sex" />
+                    <label for="femminaRadio">Femmina</label>
+                </div>
             </div>
+
+
+
         </div>
 
-        <label for="avatar">Scegli avatar:</label>
-        <select name="avatar" id="avatar" v-model="avatar">
-            <option value="default">Default</option>
-            <option value="avatar1" >Avatar1</option>
-            <option value="avatar2" >Avatar2</option>
-            <option value="avatar3" >Avatar3</option>
-        </select>
         <!-- /VARI INPUT  -->
 
         <!-- RISULTATO  -->

@@ -4,10 +4,10 @@ createApp({
   data() {
     return {
         title: 'Modifica Profilo',
-        name: ' ',
-        lastName: ' ',
-        age: ' ',
-        sex: ' ',
+        name: 'Filippo',
+        lastName: 'Bonafini',
+        age: '23',
+        sex: 'maschio',
         avatar: 'default',
     }
   }
