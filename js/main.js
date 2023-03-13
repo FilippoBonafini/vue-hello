@@ -8,7 +8,7 @@ createApp({
         lastName: 'Bonafini',
         age: '23',
         sex: 'maschio',
-        avatar: 'default',
+        avatar: 'default.png',
     }
   }
 }).mount('#app');
