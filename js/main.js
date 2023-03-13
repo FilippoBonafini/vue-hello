@@ -3,10 +3,12 @@ const { createApp } = Vue
 createApp({
   data() {
     return {
-      message: 'Hello Vue!'
+        title: 'Modifica Profilo',
+        name: ' ',
+        lastName: ' ',
+        age: ' ',
+        sex: ' ',
+        avatar: 'default',
     }
-  },
-  methods:{
-    
   }
 }).mount('#app');
